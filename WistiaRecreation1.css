@@ -88,10 +88,33 @@ a {
 
              
   }
-  .navm:hover  .subnav{
+  .wistiaformarketing:hover  .subnav{
     display: flex;
   }
 
+  .createaccount button{
+    color: white;
+    width: 250px;
+    height: 50px;
+    background-color: rgb(24, 151, 241);
+    text-align: center;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 45px;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+
+  }
+
+  .createaccount button:hover{
+
+    transition: .2s;
+box-shadow: 0 5px rgb(7, 103, 172);
+transform: translateY(-6px);
+  }
+
+  
   .top1 {
 
       color: #8c8c8c;
